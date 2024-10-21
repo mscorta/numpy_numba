@@ -3,9 +3,10 @@ name = "similarity"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
-    "numpy>=2.1.2",
+    "numba==0.60.0",
+    "scipy==1.14.1",
 ]
 
 [build-system]
@@ -14,7 +15,6 @@ build-backend = "hatchling.build"
 
 [tool.uv]
 dev-dependencies = [
-    "mypy>=1.12.1",
 ]
 
 [tool.pytest.ini_options]
