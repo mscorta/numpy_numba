@@ -2,7 +2,7 @@ import numpy as np
 from typing import List
 import numba as nb
 
-@nb.njit
+# @nb.njit
 def calculate_cosine_similarity(vector_a: List[float], vector_b: List[float]) -> float:
     """
     Calculate the cosine similarity between two vectors.
